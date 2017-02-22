@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'	#所需的framework,多个用逗号隔开
   s.module_name = 'PrivatePod'				#模块名称
-
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '2.3' }
 end
