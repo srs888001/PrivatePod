@@ -12,7 +12,7 @@ public class O2View: UIView {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor.redColor()
+        backgroundColor = UIColor.red
     }
 
     required public init?(coder aDecoder: NSCoder) {
